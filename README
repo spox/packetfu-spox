@@ -1,3 +1,21 @@
+Hi. I'm spox. I wanted to mess with PacketFu on Ruby 1.9 so I started
+modifying it until it worked. If you use this and find bugs that are
+caused by incompatibilities between 1.8.x and 1.9, drop me a line and
+I'll get it fixed.
+
+You will probably want pcaprub to use with this. Since it is built for 1.8
+too, you probably want to grab my hacked version of that too:
+
+http://github.com/spox/pcaprub-spox
+
+I also added a gemspec for this version of packetfu for installation ease:
+
+git clone git://github.com/spox/packetfu-spox.git
+cd packetfu-spox
+gem build packetfu.gemspec
+gem install packetfu-spox-x.x.x.gem
+
+
 = PacketFu
 
 A library for reading a writing packets to an interface or to a libpcap-formatted file.
