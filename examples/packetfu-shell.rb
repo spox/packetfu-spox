@@ -1,5 +1,4 @@
 # coding: utf-8
-VERSION = "1.9.1"
 # == Synopsis
 #
 # packetfu-shell.rb is intended for IRB consumption, and providing an

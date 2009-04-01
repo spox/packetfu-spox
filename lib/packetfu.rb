@@ -1,5 +1,5 @@
-if VERSION < "1.8.6"
-	$stderr.puts "[*] WARNING: Ruby not at a minimum version of 1.8.6" 
+if RUBY_VERSION < "1.9.0"
+	$stderr.puts "[*] WARNING: Ruby not at a minimum version of 1.9.0" 
 end
 
 require 'bindata'
